@@ -1,0 +1,267 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #22223B;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu {
+    margin: 0 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__lista {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.menu__lista__item__link,
+.redes__titulo__item {
+   text-decoration: none;
+}
+
+.menu__lista__item__link:visited,
+.redes__titulo__item:visited {
+    color: white;
+}
+
+.menu__lista__item__link:hover,
+.redes__titulo__item:hover {
+    transition: 0.5s;
+    color: #5915d6;
+}
+
+.titulo {
+    margin: 0 5% 0 5%;
+}
+
+.div__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.imagem__perfil__titulo {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+
+.nome__titulo {
+    font-size: 35px;
+}
+
+.descricao__titulo {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.redes__titulo {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    gap: 5%;
+}
+
+.redes__titulo__conteudo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 6%;
+}
+
+.redes__titulo__item__imggithub {
+    width: 40px;
+    height: 40px;
+}
+
+.redes__titulo__item__imglinkedin {
+    width: 25px;
+    height: 25px;
+}
+
+.conteudo__sobremim {
+    background-color: #4A4E69;
+    margin: 1% 0 0 0;
+    padding: 1% 0 1% 0;
+}
+
+.div__sobremim {
+    margin: 0 0 0 5%;
+    width: 75%;
+}
+
+.titulo__sobremim {
+    font-size: 22px;
+}
+
+.paragrafo__sobremim {
+    font-size: 19px;
+}
+
+.titulo__skills,
+.titulo__hobbies,
+.titulo__formacao,
+.titulo__experiencia,
+.titulo__contato {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.line__skills,
+.line__hobbies {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box__skills,
+.box__hobbies,
+.box__contato {
+    background-color: #4A4E69;
+}
+
+.item__lista__skills,
+.item__lista__hobbies {
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    width: 176px;
+    height: 174px;
+}
+
+.nome__skills,
+.nome__hobbies {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.img__hobbies {
+    width: 32px;
+    height: 32px;
+}
+
+.line__formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4A4E69;
+}
+
+.img__formacao {
+    width: 400px;
+    height: 260px;
+}
+
+.img__inicianteprog__formacao {
+    width: 700px;
+    height: 260px;
+}
+
+.img__lista__formacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0;
+    width: 368px;
+    height: 286px;
+}
+
+.text__lista__formacao {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box__experiencia {
+    display: flex;
+    align-items: center;
+}
+
+.img__decodificador,
+.img__jogo_numero_secreto{
+    margin: 2% 1% 0 5%;
+    width: 762px;
+    height: 416px;
+}
+
+.info__experiencia {
+    line-height: 8px;
+}
+
+.links__experiencia {
+    display: flex;
+    gap: 10px;
+}
+
+.botao__repositorio__experiencia,
+.botao__demo__experiencia,
+.button__contato {
+    width: 116px;
+    height: 51px;
+    border: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #9A8C98;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.links__experiencia button:hover,
+.area__contato button:hover {
+    background-color: transparent;
+    transition: 0.5s all;
+}
+
+.conteudo__contato {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0 0 5%;
+    line-height: 1px;
+}
+
+.area__contato {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.areainput__contato,
+.textarea__contato {
+    width: 656px;
+    height: 40px;
+}
+
+.button__contato {
+    margin: 0 0 1% 0;
+    width: 165px;
+    height: 51px;
+}
+
+.areainput__contato,
+.textarea__contato {
+    border: none;
+    background: white;
+    resize: none;
+    outline: 0;
+}
+
+.conteudo__rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 9px;
+    line-height: 0.5px;
+    margin-top: 10px;
+}
