@@ -204,7 +204,7 @@
                     <h3 class="subtitulo__contato">Gostaria de entrar em contato?</h3>
                     <p class="subtitulo__contato">Logo abaixo preencha o formulário e entrarei em contato o mais rápido possível.</p>
 
-                    <form action="https://formsubmit.co/guilhermesouza0992@email.com" method="POST" class="area__contato" id="form" name="formulario">
+                    <form class="area__contato" id="form" name="formulario" data-formulario>
 
                         <input type="text" id="name" required maxlength="50" class="areainput__contato" placeholder="Nome">
 
@@ -215,10 +215,6 @@
                         <textarea type="text" id="mensagem" required class="textarea__contato" maxlength="300" rows="5" cols="40" placeholder="Mensagem"></textarea>
 
                         <button type="submit" id="button" class="button__contato">Enviar mensagem</button>
-
-                        <input type="hidden" name="_subject" value="Novo Contato!">
-                        <input type="text" name="_honey" style="display:none">
-                        <input type="hidden" name="_captcha" value="false">
 
                     </form>
                 </div>
@@ -232,6 +228,6 @@
             </div>
         </footer>
     </div>
-    <script src="app.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>
